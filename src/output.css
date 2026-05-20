@@ -247,6 +247,12 @@
   .ml-\[30px\] {
     margin-left: 30px;
   }
+  .ml-\[35bpx\] {
+    margin-left: 35bpx;
+  }
+  .ml-\[35px\] {
+    margin-left: 35px;
+  }
   .ml-\[60px\] {
     margin-left: 60px;
   }
@@ -262,8 +268,14 @@
   .ml-\[150px\] {
     margin-left: 150px;
   }
+  .ml-\[200px\] {
+    margin-left: 200px;
+  }
   .ml-\[300px\] {
     margin-left: 300px;
+  }
+  .ml-\[p\] {
+    margin-left: p;
   }
   .block {
     display: block;
@@ -369,6 +381,15 @@
   }
   .w-\[600px\] {
     width: 600px;
+  }
+  .w-\[800px\] {
+    width: 800px;
+  }
+  .w-\[1100px\] {
+    width: 1100px;
+  }
+  .w-\[2000px\] {
+    width: 2000px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -593,6 +614,16 @@
       margin-top: 200px;
     }
   }
+  .lg\:mt-\[280px\] {
+    @media (width >= 64rem) {
+      margin-top: 280px;
+    }
+  }
+  .lg\:mt-\[300px\] {
+    @media (width >= 64rem) {
+      margin-top: 300px;
+    }
+  }
   .lg\:mb-\[20px\] {
     @media (width >= 64rem) {
       margin-bottom: 20px;
@@ -611,6 +642,11 @@
   .lg\:ml-\[-120px\] {
     @media (width >= 64rem) {
       margin-left: -120px;
+    }
+  }
+  .lg\:ml-\[1\] {
+    @media (width >= 64rem) {
+      margin-left: 1;
     }
   }
   .lg\:ml-\[20px\] {
@@ -728,6 +764,11 @@
       width: 350px;
     }
   }
+  .lg\:w-\[400px\] {
+    @media (width >= 64rem) {
+      width: 400px;
+    }
+  }
   .lg\:w-\[450px\] {
     @media (width >= 64rem) {
       width: 450px;
@@ -753,6 +794,11 @@
       width: 600px;
     }
   }
+  .lg\:w-\[800px\] {
+    @media (width >= 64rem) {
+      width: 800px;
+    }
+  }
   .lg\:w-\[900px\] {
     @media (width >= 64rem) {
       width: 900px;
@@ -771,6 +817,11 @@
   .lg\:gap-\[20px\] {
     @media (width >= 64rem) {
       gap: 20px;
+    }
+  }
+  .lg\:gap-\[30px\] {
+    @media (width >= 64rem) {
+      gap: 30px;
     }
   }
   .lg\:gap-\[40px\] {
@@ -814,6 +865,12 @@
       line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
+  .lg\:text-3xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
   .lg\:text-\[13px\] {
     @media (width >= 64rem) {
       font-size: 13px;
@@ -837,6 +894,12 @@
   .lg\:text-\[19px\] {
     @media (width >= 64rem) {
       font-size: 19px;
+    }
+  }
+  .lg\:font-bold {
+    @media (width >= 64rem) {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
     }
   }
 }
